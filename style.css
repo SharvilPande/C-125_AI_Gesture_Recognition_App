@@ -1,0 +1,33 @@
+.heading{
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px rgb(161, 74, 16);
+}
+
+.note{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.footer{
+    bottom: 0;
+    position: fixed;
+    line-height: 3;
+    width: 100%;
+    background-color: rgb(214, 179, 179);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+canvas {
+    border: 5px outset rgb(150, 25, 150);
+    animation-name: box-shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box-shadow {
+    from {box-shadow: 5px 5px 10px darkgoldenrod;}
+    to {box-shadow: 5px 5px 10px rgb(4, 71, 10);}
+}
